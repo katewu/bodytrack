@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/BodyTracking.unity
+    guid: f7ee7cc4d6d5543eba816d2cec3c03e6
+  m_configObjects:
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 70c19ed20b9674b419fd7a5c5b337a52, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 8d39ee461b85745a5be35a90fc055714, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5d79e93fa5ebc4b13a91bfdf03a69d0b, type: 2}
