@@ -1,0 +1,86 @@
+{
+    "totalVariantsIn": 97,
+    "totalVariantsOut": 97,
+    "shaders": [
+        {
+            "inputVariants": 64,
+            "outputVariants": 64,
+            "name": "StpSetup",
+            "pipelines": [
+                {
+                    "inputVariants": 64,
+                    "outputVariants": 64,
+                    "pipeline": "",
+                    "variants": [
+                        {
+                            "inputVariants": 64,
+                            "outputVariants": 64,
+                            "variantName": "Kernel: StpSetup",
+                            "stripTimeMs": 0.0028
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "inputVariants": 16,
+            "outputVariants": 16,
+            "name": "StpTaa",
+            "pipelines": [
+                {
+                    "inputVariants": 16,
+                    "outputVariants": 16,
+                    "pipeline": "",
+                    "variants": [
+                        {
+                            "inputVariants": 16,
+                            "outputVariants": 16,
+                            "variantName": "Kernel: StpTaa",
+                            "stripTimeMs": 0.0006000000000000001
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "inputVariants": 1,
+            "outputVariants": 1,
+            "name": "ProbeVolumeSamplingDebugPositionNormal",
+            "pipelines": [
+                {
+                    "inputVariants": 1,
+                    "outputVariants": 1,
+                    "pipeline": "",
+                    "variants": [
+                        {
+                            "inputVariants": 1,
+                            "outputVariants": 1,
+                            "variantName": "Kernel: ComputePositionNormal",
+                            "stripTimeMs": 0.00030000000000000003
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "inputVariants": 16,
+            "outputVariants": 16,
+            "name": "StpPreTaa",
+            "pipelines": [
+                {
+                    "inputVariants": 16,
+                    "outputVariants": 16,
+                    "pipeline": "",
+                    "variants": [
+                        {
+                            "inputVariants": 16,
+                            "outputVariants": 16,
+                            "variantName": "Kernel: StpPreTaa",
+                            "stripTimeMs": 0.0002
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

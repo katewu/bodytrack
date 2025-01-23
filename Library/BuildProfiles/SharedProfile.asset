@@ -16,7 +16,7 @@ MonoBehaviour:
   m_Subtarget: 0
   m_PlatformId: 00000000000000000000000000000000
   m_PlatformBuildProfile:
-    rid: 3906265011613859842
+    rid: 3906264970346102786
   m_Scenes: []
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
@@ -24,7 +24,7 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 3906265011613859842
+    - rid: 3906264970346102786
       type: {class: SharedPlatformSettings, ns: UnityEditor.Build.Profile, asm: UnityEditor.CoreModule}
       data:
         m_Development: 0
@@ -41,7 +41,7 @@ MonoBehaviour:
         m_WindowsDevicePortalAddress: 
         m_WindowsDevicePortalUsername: 
         m_ForceInstallation: 0
-        m_iOSXcodeBuildConfig: 0
+        m_iOSXcodeBuildConfig: 1
         m_SymlinkSources: 0
         m_PreferredXcode: 
         m_SymlinkTrampoline: 0

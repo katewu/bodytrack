@@ -9,34 +9,28 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
+	"picker_window_position_offset.075BCD15" = "20.5;187;320;550"
+	"picker_visibility_flags.075BCD15" = "264"
+	"picker_item_size.075BCD15" = "96"
+	"picker_inspector.075BCD15" = "0"
 }
 providers = {
-	asset = {
-		active = true
-		priority = 25
-		defaultAction = null
-	}
-	scene = {
-		active = true
-		priority = 50
-		defaultAction = null
-	}
-	adb = {
-		active = false
-		priority = 2500
-		defaultAction = null
-	}
 	find = {
 		active = true
 		priority = 25
 		defaultAction = null
 	}
-	packages = {
+	log = {
 		active = false
-		priority = 90
+		priority = 210
 		defaultAction = null
 	}
-	profilermarkers = {
+	asset = {
+		active = true
+		priority = 25
+		defaultAction = null
+	}
+	performance = {
 		active = false
 		priority = 100
 		defaultAction = null
@@ -46,14 +40,29 @@ providers = {
 		priority = 100
 		defaultAction = null
 	}
-	performance = {
+	packages = {
+		active = false
+		priority = 90
+		defaultAction = null
+	}
+	adb = {
+		active = false
+		priority = 2500
+		defaultAction = null
+	}
+	scene = {
+		active = true
+		priority = 50
+		defaultAction = null
+	}
+	profilermarkers = {
 		active = false
 		priority = 100
 		defaultAction = null
 	}
-	log = {
+	presets_provider = {
 		active = false
-		priority = 210
+		priority = -10
 		defaultAction = null
 	}
 }
